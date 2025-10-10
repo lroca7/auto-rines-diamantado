@@ -1,0 +1,22 @@
+/* Estilos para la página Home */
+.home {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Animaciones suaves */
+.home * {
+  transition: all 0.3s ease;
+}
+
+/* Scroll suave para navegación */
+.home a[href^="#"] {
+  scroll-behavior: smooth;
+}
+
+/* Asegurar que todas las secciones ocupen todo el ancho */
+.home > * {
+  width: 100%;
+}
