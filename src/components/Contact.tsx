@@ -6,7 +6,6 @@ const Contact: React.FC = () => {
     name: '',
     email: '',
     phone: '',
-    service: '',
     message: ''
   });
 
@@ -49,14 +48,6 @@ const Contact: React.FC = () => {
               <div className="contact-details">
                 <h3>WhatsApp</h3>
                 <p>+57 (300) 123-4567</p>
-              </div>
-            </div>
-
-            <div className="contact-item">
-              <div className="contact-icon">📧</div>
-              <div className="contact-details">
-                <h3>Email</h3>
-                <p>info@autorinesdiamantados.com</p>
               </div>
             </div>
 
@@ -105,21 +96,6 @@ const Contact: React.FC = () => {
                     required
                   />
                 </div>
-              </div>
-
-              <div className="form-group">
-                <select
-                  name="service"
-                  value={formData.service}
-                  onChange={handleChange}
-                  required
-                >
-                  <option value="">Selecciona un servicio</option>
-                  <option value="diamantado">Diamantado Premium</option>
-                  <option value="restauracion">Restauración Completa</option>
-                  <option value="personalizacion">Personalización</option>
-                  <option value="mantenimiento">Mantenimiento</option>
-                </select>
               </div>
 
               <div className="form-group">
