@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/Header.css';
+import logo from '../assets/images/autorines.png';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,8 +14,7 @@ const Header: React.FC = () => {
       <div className="container">
         <div className="header-content">
           <div className="logo">
-            <h1>Autorines Diamantados</h1>
-            <span className="tagline">Excelencia en Restauración</span>
+            <img src={logo} alt="Autorines Diamantados" />
           </div>
           
           <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>

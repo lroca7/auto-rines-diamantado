@@ -10,15 +10,11 @@ const About: React.FC = () => {
             <h2 className="section-title">Sobre Nosotros</h2>
             <p className="about-description">
               En Autorines Diamantados, somos especialistas en la restauración y diamantado de rines de lujo. 
-              Con más de una década de experiencia en Cartagena, hemos perfeccionado técnicas únicas que 
+              Somos un nuevo servicio en Cartagena, hemos perfeccionado técnicas que 
               transforman rines dañados en obras de arte brillantes.
             </p>
             
-            <div className="about-features">
-              <div className="about-feature">
-                <h3>🏆 Experiencia</h3>
-                <p>Más de 10 años restaurando rines de alta gama</p>
-              </div>
+            <div className="about-features">              
               <div className="about-feature">
                 <h3>📍 Ubicación</h3>
                 <p>Transversal 54, Bosque #21A-17 - Cartagena, Colombia</p>
@@ -31,11 +27,11 @@ const About: React.FC = () => {
 
             <div className="about-stats">
               <div className="stat">
-                <span className="stat-number">500+</span>
+                <span className="stat-number">50+</span>
                 <span className="stat-label">Rines Restaurados</span>
               </div>
               <div className="stat">
-                <span className="stat-number">98%</span>
+                <span className="stat-number">99%</span>
                 <span className="stat-label">Satisfacción</span>
               </div>
               <div className="stat">

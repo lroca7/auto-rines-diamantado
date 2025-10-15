@@ -39,7 +39,7 @@ const Services: React.FC = () => {
         <div className="section-header">
           <h2 className="section-title">Nuestros Servicios</h2>
           <p className="section-subtitle">
-            Especialistas en restauración y diamantado de rines de lujo con más de 10 años de experiencia
+            Especialistas en restauración y diamantado de rines de lujo
           </p>
         </div>
 

@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
             <ul>
               <li>📍 Transversal 54, Bosque #21A-17</li>
               <li>🏙️ Cartagena, Colombia</li>
-              <li>📱 +57 (300) 123-4567</li>
+              <li>📱 +57 (300) 000000</li>
               <li>📧 info@autorinesdiamantados.com</li>
             </ul>
           </div>
@@ -52,8 +52,8 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2024 Autorines Diamantados. Todos los derechos reservados.</p>
-          <p>Desarrollado con ❤️ para la excelencia en restauración</p>
+          <p>&copy; 2025 Autorines Diamantados. Todos los derechos reservados.</p>
+          <p>Hecho con ❤️ by Perseo Development</p>
         </div>
       </div>
     </footer>

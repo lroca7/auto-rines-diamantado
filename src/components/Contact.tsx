@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
               <div className="contact-icon">📱</div>
               <div className="contact-details">
                 <h3>WhatsApp</h3>
-                <p>+57 (300) 123-4567</p>
+                <p>+57 (300) 0000000</p>
               </div>
             </div>
 

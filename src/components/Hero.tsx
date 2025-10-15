@@ -28,8 +28,8 @@ const Hero: React.FC = () => {
               </a>
             </div>
           </div>
-          
-          <div className="hero-features">
+         
+          {/* <div className="hero-features">
             <div className="feature">
               <div className="feature-icon">⚡</div>
               <h3>Servicio Rápido</h3>
@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
               <h3>Garantía Total</h3>
               <p>Respaldamos nuestro trabajo</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
