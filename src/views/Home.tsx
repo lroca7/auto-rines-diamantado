@@ -2,7 +2,6 @@ import React from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Services from '../components/Services';
-import CarSlider from '../components/CarSlider';
 import About from '../components/About';
 import Galeria from '../components/Galeria';
 import Contact from '../components/Contact';
