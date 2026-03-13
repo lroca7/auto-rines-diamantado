@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import Services from '../components/Services';
 import CarSlider from '../components/CarSlider';
 import About from '../components/About';
+import Galeria from '../components/Galeria';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import '../styles/Home.css';
@@ -12,10 +13,11 @@ const Home: React.FC = () => {
   return (
     <div className="home">
       <Header />
-      <CarSlider />
+      {/*<CarSlider />*/}
       <Hero />
       <Services />
       <About />
+      <Galeria />
       <Contact />
       <Footer />
     </div>

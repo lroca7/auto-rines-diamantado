@@ -10,9 +10,9 @@ const Footer: React.FC = () => {
             <h3>Autorines Diamantados</h3>
             <p>Especialistas en restauración y diamantado de rines de lujo en Cartagena, Colombia.</p>
             <div className="social-links">
-              <a 
-                href="https://instagram.com/rinediamantados_ctg" 
-                target="_blank" 
+              <a
+                href="https://instagram.com/rinediamantados_ctg"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
               >
@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
             <ul>
               <li>📍 Transversal 54, Bosque #21A-17</li>
               <li>🏙️ Cartagena, Colombia</li>
-              <li>📱 +57 (300) 000000</li>
+              <li>📱 +57 (315) 3819291</li>
               <li>📧 info@autorinesdiamantados.com</li>
             </ul>
           </div>

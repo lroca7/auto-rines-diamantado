@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
               <div className="contact-icon">📱</div>
               <div className="contact-details">
                 <h3>WhatsApp</h3>
-                <p>+57 (300) 0000000</p>
+                <p>+57 (315) 3819291</p>
               </div>
             </div>
 
@@ -56,7 +56,7 @@ const Contact: React.FC = () => {
               <div className="contact-details">
                 <h3>Instagram</h3>
                 <a href="https://instagram.com/rinediamantados_ctg" target="_blank" rel="noopener noreferrer">
-                  @rinediamantados_ctg
+                  @rinesdiamantados_ctg
                 </a>
               </div>
             </div>
@@ -64,13 +64,13 @@ const Contact: React.FC = () => {
             <div className="contact-item">
               <div className="contact-icon">
                 <svg viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-.88-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                  <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-.88-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z" />
                 </svg>
               </div>
               <div className="contact-details">
                 <h3>TikTok</h3>
-                <a href="https://tiktok.com/@rinediamantados_ctg" target="_blank" rel="noopener noreferrer">
-                  @rinediamantados_ctg
+                <a href="https://tiktok.com/@rinesdiamantados_ctg" target="_blank" rel="noopener noreferrer">
+                  @rinesdiamantados_ctg
                 </a>
               </div>
             </div>

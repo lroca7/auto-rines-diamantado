@@ -16,24 +16,25 @@ const Header: React.FC = () => {
           <div className="logo">
             <img src={logo} alt="Autorines Diamantados" />
           </div>
-          
+
           <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
             <ul className="nav-list">
               <li><a href="#inicio" className="nav-link">Inicio</a></li>
               <li><a href="#servicios" className="nav-link">Servicios</a></li>
               <li><a href="#nosotros" className="nav-link">Nosotros</a></li>
+              <li><a href="#galeria" className="nav-link">Galería</a></li>
               <li><a href="#contacto" className="nav-link">Contacto</a></li>
             </ul>
           </nav>
 
           <div className="header-actions">
-            <a 
-              href="https://instagram.com/rinediamantados_ctg" 
-              target="_blank" 
+            <a
+              href="https://instagram.com/rinediamantados_ctg"
+              target="_blank"
               rel="noopener noreferrer"
               className="instagram-link"
             >
-              <span>@rinediamantados_ctg</span>
+              <span>@rinesdiamantados_ctg</span>
             </a>
             <button className="menu-toggle" onClick={toggleMenu}>
               <span></span>

@@ -54,7 +54,12 @@ body {
 }
 
 /* Tipografía */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 1rem;
@@ -141,19 +146,19 @@ p {
   .container {
     padding: 0 1rem;
   }
-  
+
   h1 {
     font-size: 2rem;
   }
-  
+
   h2 {
     font-size: 1.8rem;
   }
-  
+
   .section-title {
     font-size: 2rem;
   }
-  
+
   .btn {
     padding: 10px 20px;
     font-size: 0.9rem;
@@ -164,7 +169,7 @@ p {
   .section-title {
     font-size: 3rem;
   }
-  
+
   .section-subtitle {
     font-size: 1.3rem;
   }
@@ -174,7 +179,7 @@ p {
   .section-title {
     font-size: 3.5rem;
   }
-  
+
   .section-subtitle {
     font-size: 1.4rem;
   }

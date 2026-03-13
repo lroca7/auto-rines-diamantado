@@ -57,7 +57,7 @@
 }
 
 .nav-link:hover {
-  color: #cccccc;
+  color: #027EB2;
 }
 
 .nav-link::after {
@@ -67,7 +67,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: #ffffff;
+  background: #027EB2;
   transition: width 0.3s ease;
 }
 
@@ -90,7 +90,7 @@
 }
 
 .instagram-link:hover {
-  color: #ffffff;
+  color: #027EB2;
 }
 
 .menu-toggle {

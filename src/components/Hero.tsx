@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Hero.css';
+import heroVideo from '../assets/video/rines_video.mp4';
 
 const Hero: React.FC = () => {
   return (
@@ -7,45 +8,45 @@ const Hero: React.FC = () => {
       <div className="hero-background">
         <div className="hero-overlay"></div>
       </div>
-      
+
       <div className="container">
         <div className="hero-content">
+          {/* Texto izquierda */}
           <div className="hero-text">
             <h1 className="hero-title">
               Restauración y Diamantado
               <span className="highlight">Premium</span>
             </h1>
             <p className="hero-subtitle">
-              Transformamos tus rines de lujo con técnicas especializadas y materiales de la más alta calidad. 
+              Transformamos tus rines de lujo con técnicas especializadas y materiales de la más alta calidad.
               Cada proyecto es una obra de arte que refleja nuestro compromiso con la excelencia.
             </p>
             <div className="hero-buttons">
               <a href="#servicios" className="btn btn-primary">
                 Ver Servicios
               </a>
-              <a href="#contacto" className="btn btn-secondary">
+              <a
+                href={`https://wa.me/573215050468?text=${encodeURIComponent('Hola! Me gustaría cotizar el servicio de diamantado de rines.')}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-secondary"
+              >
                 Cotizar Ahora
               </a>
             </div>
           </div>
-         
-          {/* <div className="hero-features">
-            <div className="feature">
-              <div className="feature-icon">⚡</div>
-              <h3>Servicio Rápido</h3>
-              <p>Tiempos de entrega optimizados</p>
-            </div>
-            <div className="feature">
-              <div className="feature-icon">💎</div>
-              <h3>Calidad Premium</h3>
-              <p>Materiales y técnicas de primera</p>
-            </div>
-            <div className="feature">
-              <div className="feature-icon">🛡️</div>
-              <h3>Garantía Total</h3>
-              <p>Respaldamos nuestro trabajo</p>
-            </div>
-          </div> */}
+
+          {/* Video derecha */}
+          <div className="hero-video">
+            <video
+              src={heroVideo}
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="hero-video-player"
+            />
+          </div>
         </div>
       </div>
     </section>

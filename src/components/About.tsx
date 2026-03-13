@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/About.css';
+import auto2 from '../assets/images/about/auto2.jpeg';
 
 const About: React.FC = () => {
   return (
@@ -9,12 +10,12 @@ const About: React.FC = () => {
           <div className="about-text">
             <h2 className="section-title">Sobre Nosotros</h2>
             <p className="about-description">
-              En Autorines Diamantados, somos especialistas en la restauración y diamantado de rines de lujo. 
-              Somos un nuevo servicio en Cartagena, hemos perfeccionado técnicas que 
+              En Autorines Diamantados, somos especialistas en la restauración y diamantado de rines de lujo.
+              Somos un nuevo servicio en Cartagena, hemos perfeccionado técnicas que
               transforman rines dañados en obras de arte brillantes.
             </p>
-            
-            <div className="about-features">              
+
+            <div className="about-features">
               <div className="about-feature">
                 <h3>📍 Ubicación</h3>
                 <p>Transversal 54, Bosque #21A-17 - Cartagena, Colombia</p>
@@ -42,12 +43,7 @@ const About: React.FC = () => {
           </div>
 
           <div className="about-image">
-            <div className="image-placeholder">
-              <div className="placeholder-content">
-                <span className="placeholder-icon">🔧</span>
-                <p>Imagen de nuestro taller</p>
-              </div>
-            </div>
+            <img src={auto2} alt="Nuestro taller" className="about-img" />
           </div>
         </div>
       </div>
