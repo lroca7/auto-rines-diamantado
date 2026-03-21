@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
                 Ver Servicios
               </a>
               <a
-                href={`https://wa.me/573215050468?text=${encodeURIComponent('Hola! Me gustaría cotizar el servicio de diamantado de rines.')}`}
+                href={`https://wa.me/573153819291?text=${encodeURIComponent('Hola! Me gustaría cotizar el servicio de diamantado de rines.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-secondary"

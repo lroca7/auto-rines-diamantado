@@ -55,7 +55,7 @@ const Contact: React.FC = () => {
               <div className="contact-icon">📸</div>
               <div className="contact-details">
                 <h3>Instagram</h3>
-                <a href="https://instagram.com/rinediamantados_ctg" target="_blank" rel="noopener noreferrer">
+                <a href="https://instagram.com/rinesdiamantados_ctg" target="_blank" rel="noopener noreferrer">
                   @rinesdiamantados_ctg
                 </a>
               </div>

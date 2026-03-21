@@ -29,7 +29,7 @@ const Header: React.FC = () => {
 
           <div className="header-actions">
             <a
-              href="https://instagram.com/rinediamantados_ctg"
+              href="https://instagram.com/rinesdiamantados_ctg"
               target="_blank"
               rel="noopener noreferrer"
               className="instagram-link"

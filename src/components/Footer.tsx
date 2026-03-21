@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
             <p>Especialistas en restauración y diamantado de rines de lujo en Cartagena, Colombia.</p>
             <div className="social-links">
               <a
-                href="https://instagram.com/rinediamantados_ctg"
+                href="https://instagram.com/rinesdiamantados_ctg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
