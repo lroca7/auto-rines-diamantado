@@ -44,8 +44,8 @@ const Footer: React.FC = () => {
           <div className="footer-section">
             <h4>Horarios</h4>
             <ul>
-              <li>Lunes - Viernes: 8:00 AM - 6:00 PM</li>
-              <li>Sábados: 8:00 AM - 2:00 PM</li>
+              <li>Lunes - Viernes: 8:00 AM - 5:00 PM</li>
+              <li>Sábados: 8:00 AM - 12:00 PM</li>
               <li>Domingos: Cerrado</li>
             </ul>
           </div>
